@@ -1,5 +1,5 @@
 const express = require("express");
-const wrapacync = require("../utils/wrapacync.js");
+const wrapacync = require("../utils/wrapAsync");
 const router = express.Router();
 const passport = require("passport");
 const { saveRedirectUrl } = require("../middleware.js");
