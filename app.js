@@ -108,6 +108,6 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("error", { message });
 });
 // running
-app.listen(8080/listings, () => {
-  console.log("Server is running on http://localhost:8080/listings");
+app.listen(8080, () => {
+  console.log("Server is running on http://localhost:8080");
 });
